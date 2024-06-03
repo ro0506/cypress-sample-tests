@@ -1,5 +1,5 @@
 @priority_medium
-Feature: Add Items to Cart
+Feature: Adding items to Cart
   As a user,
   I want to view the details of products
   So that I can make informed purchase decisions and add them to my cart
