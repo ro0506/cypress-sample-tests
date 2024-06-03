@@ -1,0 +1,33 @@
+{
+  "name": "sample_automationproject",
+  "version": "1.0.0",
+  "description": "sample automation project",
+  "main": "index.js",
+  "scripts": {
+    "test:specific-feature": "cypress run --spec \"cypress/e2e/features/*.feature\"",
+    "junit-merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
+    "delete-junit-report": "rm -rf cypress/results/junit/results.xml",
+    "delete-results": "rm -rf cypress/results/*  || true",
+    "generate-report": "node cypress/report.js",
+    "run-tests-and-generate-report": "npm run test:specific-feature && npm run generate-report"
+   
+  },
+  "author": "Roan",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.10.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/step_definitions/*.{js,ts}",
+    "json": {
+      "enabled": true,
+      "formatter": "./jsonFormatter/cucumber-json-formatter",
+      "output": "json-logs/report.json"
+    }
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.1",
+    "multiple-cucumber-html-reporter": "^3.6.2"
+  }
+}
