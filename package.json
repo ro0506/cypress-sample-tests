@@ -9,7 +9,8 @@
     "delete-junit-report": "rm -rf cypress/results/junit/results.xml",
     "delete-results": "rm -rf cypress/results/*  || true",
     "generate-report": "node cypress/report.js",
-    "run-tests-and-generate-report": "npm run test:specific-feature && npm run generate-report"
+    "run-tests-and-generate-report": "npm run test:specific-feature && npm run generate-report",
+    "api-test": "cypress run --spec 'cypress/e2e/api/*.js'"
    
   },
   "author": "Roan",

@@ -6,3 +6,4 @@ reports
 package-lock.json
 json-logs
 jsonFormatter
+.DS_Store
