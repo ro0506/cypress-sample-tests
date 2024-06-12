@@ -3,8 +3,7 @@ results
 screenshots
 videos
 reports
-package-lock.json
 json-logs
 jsonFormatter
-.DS_Store
+**/.DS_Store
 reporter-config.json
