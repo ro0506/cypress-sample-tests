@@ -31,7 +31,7 @@ jobs:
       run: npm run run-tests-and-generate-report
 
     - name: Upload test results
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4.3.3
       with:
         name: cypress-test-results
-        path: reports/cucumber-htmlreport.html/index.html
+        path: reports/cucumber-htmlreport.html
