@@ -26,7 +26,7 @@ module.exports = defineConfig({
     baseUrl: "https://www.saucedemo.com/",
     reporter: 'cypress-multi-reporters',
     reporterOptions: {
-      configFile: 'reporter-config.json',
+      configFile: false
     }
   },
 });

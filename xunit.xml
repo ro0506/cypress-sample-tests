@@ -1,0 +1,12 @@
+<testsuite name="Mocha Tests" tests="10" failures="0" errors="0" skipped="0" timestamp="Thu, 13 Jun 2024 08:42:49 GMT" time="10.826">
+<testcase classname="Adding items to Cart" name="View product details and add to cart (example #1)" time="1.39"/>
+<testcase classname="Adding items to Cart" name="View product details and add to cart (example #2)" time="1.243"/>
+<testcase classname="Adding items to Cart" name="View product details and add to cart (example #3)" time="1.105"/>
+<testcase classname="Adding items to Cart" name="View product details and add to cart (example #4)" time="1.052"/>
+<testcase classname="Adding items to Cart" name="View product details and add to cart (example #5)" time="1.059"/>
+<testcase classname="Adding items to Cart" name="Add a specified number of products to the cart" time="1.119"/>
+<testcase classname="Adding items to Cart" name="Sort the products by a given filter (example #1)" time="0.912"/>
+<testcase classname="Adding items to Cart" name="Sort the products by a given filter (example #2)" time="0.923"/>
+<testcase classname="Adding items to Cart" name="Sort the products by a given filter (example #3)" time="0.922"/>
+<testcase classname="Adding items to Cart" name="Sort the products by a given filter (example #4)" time="0.927"/>
+</testsuite>
